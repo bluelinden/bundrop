@@ -1,0 +1,46 @@
+:root {
+  --app-header-height: calc(var(--base) * 4);
+}
+
+.step-nav__home {
+  height: 48px;
+  width: 48px;
+  image-rendering: crisp-edges;
+
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+html {
+  font-size: 15px;
+}
+
+.nav__link {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.nav-group__label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-group__indicator {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.nav__link.active {
+  color: pink;
+  font-weight: bold;
+}
+
+.nav__link-indicator {
+	width: 8px;
+	height: 32px;
+	border-start-end-radius: 4px;
+	border-end-end-radius: 4px;
+	background: pink;
+}
+
